@@ -38,7 +38,7 @@ Example: https://forkify-api.herokuapp.com/api/v2/recipes/ID?key=API_KEY
 
 
 ![Alt text](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٥٨.png)
-![Alt text](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٥٠.png)
+![Alt text](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٥٠.png).
 
 
 
