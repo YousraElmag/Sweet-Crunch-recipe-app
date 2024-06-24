@@ -29,7 +29,7 @@ This application allows users to search for recipes, view recipe details, and ma
  API Endpoints
 Forkify API: Used for fetching recipe data.
 Example: https://forkify-api.herokuapp.com/api/v2/recipes/ID?key=API_KEY
-![App Screenshot](/public/images/8e1cc646-b133-4b0f-a41e-52793a1399e7.jpeg)
-![App Screenshot](/public/images/fde91b08-a2f7-46a0-85ee-af7dac5b47ae.jpeg)
-![App Screenshot](/public/images/8a06bc76-920a-46ce-84c4-62353efea1aa.jpeg)
-![App Screenshot](/public/images/102afc90-9f84-4dd0-b6b4-82d92c8e867b.jpeg)
+![App Screenshot](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.١٠.٠٧.png)
+![App Screenshot](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٥٨.png)
+![App Screenshot](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٥٠.png)
+![App Screenshot](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٣٥.png)
