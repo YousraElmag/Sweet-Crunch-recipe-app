@@ -596,6 +596,8 @@ gap: 5px;
     }
     .landing .search {
         padding: 10px;
+        display: flex;
+        flex-direction: column;
     }
     .landing .search h2{
       font-size: 17px;
@@ -627,7 +629,7 @@ gap: 5px;
     
     
     .main {
-        width: 95%;
+        width: 100%;
       
     }
     .main .left{
@@ -731,17 +733,19 @@ gap: 5px;
     }
     .photo img{
         width: 120px;
+        height: 100%;
     }
-    .face .container{
-        grid-template-rows: auto;
+    .face .container{        grid-template-rows: auto;
         justify-items: center;
         display: grid;
         grid-template-columns: 50px 1fr 50px;
-    
+        text-align: -webkit-center;
     }
+    
+    
     .sidebar-right img{
      width: 50px;
-    
+    height: 100%;
     }
     .footer{
         flex-direction: row;
@@ -789,6 +793,11 @@ gap: 5px;
         .fovartie h3{
             font-size: 9px;
             width: 100px;
+        }
+        .sidebar-left h2{
+            height: auto;
+            width: 50px;
+            font-size: 7px;
         }
 }
 /* end queries */
