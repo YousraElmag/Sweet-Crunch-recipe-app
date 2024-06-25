@@ -33,3 +33,9 @@ Example: https://forkify-api.herokuapp.com/api/v2/recipes/ID?key=API_KEY
 ![App Screenshot](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٥٨.png)
 ![App Screenshot](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٥٠.png)
 ![App Screenshot](/public/images/‏لقطة%20الشاشة%20٢٠٢٤-٠٦-٢٤%20في%20٢٣.٠٩.٣٥.png)
+
+
+##links
+[GitHub Repository](https://github.com/YousraElmag/Sweet-Crunch-recipe-app.git)
+[live-demo](https://sweet-crunch-recipe-app.netlify.app/)
+Steps
