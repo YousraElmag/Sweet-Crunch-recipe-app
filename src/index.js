@@ -14,10 +14,10 @@ const lastpost = document.querySelector('.lastpost span');
 
 let cache = {};
 
-// Function to fetch data with caching
+
 async function getdata(id) {
     const cacheKey = `recipe_${id}`;
-    const cacheDuration = 50 * 60 * 1000; // Cache duration in milliseconds (1 hour)
+    const cacheDuration = 50 * 60 * 1000; 
 
     if (cache[cacheKey] && (Date.now() - cache[cacheKey].timestamp < cacheDuration)) {
         console.log('Using data from cache');
@@ -53,7 +53,6 @@ async function getdata(id) {
     }
 }
 
-// Function to display data
 function displayData(recipe) {
     const markup = `
         <div class="container">
@@ -152,7 +151,7 @@ function toggleFavorite(id) {
         favorites.push(id);
     }
     localStorage.setItem('favorites', JSON.stringify(favorites));
-    loadFavorites(); // Ensure favorites are updated
+    loadFavorites(); 
 }
 
 function loadFavorites() {
@@ -183,14 +182,14 @@ function loadFavorites() {
     });
 }
 
-// Call loadFavorites when the page loads
+
 window.addEventListener('load', loadFavorites);
 
 soldheart.addEventListener('click', () => {
     face.style.display = 'none';
     main.style.display = 'none';
     fovartiee.style.display = 'grid';
-    loadFavorites(); // Ensure favorites are loaded
+    loadFavorites(); 
 });
 
 back.addEventListener('click', () => {
