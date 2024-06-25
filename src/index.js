@@ -160,8 +160,8 @@ function loadFavorites() {
 
     favorites.forEach(async (e) => {
         const recipe = await getdata(e);
-        addfavarte += `<div class="box">
-            <img src="${recipe.image}" alt="" data-id="${recipe.id}">
+        addfavarte += `<div class="box" data-id="${recipe.id}">
+            <img src="${recipe.image}" alt="" >
             <h3><a class='j' href="#">${recipe.title}</a><p>${recipe.publisher}</p> <i class="fa-regular fa-trash-can"></i></h3>
         </div>`;
         document.querySelector('.data').innerHTML = addfavarte;
